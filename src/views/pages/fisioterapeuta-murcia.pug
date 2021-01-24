@@ -72,6 +72,11 @@ block var
     tlfLlamar = '643 21 01 75',
     tlfWhatsApp = '643 21 01 75'
 
+block prepend head
+  script.
+    // redirect
+    location.href = 'https://www.miosfisioterapia.com/';
+
 block headerContent
   h1
     span.text-secondary Clínica de Fisioterapia
