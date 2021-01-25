@@ -8,6 +8,11 @@ a.btn,
 button.btn {
   white-space: inherit;
 }
+#fotos img {
+  width: 100%;
+  height: 32.8125vw;
+  object-fit: cover;
+}
 #servicios .card > .card-header,
 #servicios .card > div {
   border: #ccc 1px solid;
