@@ -21,6 +21,9 @@ button.btn {
 #servicios .card:first-child > .card-header {
   border-top: #ccc 1px solid;
 }
+#servicios .fas + .fas {
+  text-shadow: 0 0.125rem 0 white;
+}
 #equipo .list-group-item {
   text-indent: -14px;
   padding-left: 48px;
