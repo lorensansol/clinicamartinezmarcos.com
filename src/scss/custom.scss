@@ -43,31 +43,31 @@ button.btn {
 .min-h-100 {
   min-height: 100%;
 }
-#cookiesms {
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  background-color: rgba(255, 255, 255, 0.9);
-  font-size: 14px;
-  padding: 5px;
-  width: 100%;
-  z-index: 5;
-}
-#cookiesms button {
-  line-height: 14px;
-}
-@media (min-width: 576px) {
-  #cookiesms {
-    top: inherit;
-    bottom: 0px;
-  }
-}
-#cookiesms.ocultar-cookies {
-  transition: all 0.5s;
-  bottom: -40px;
-  top: inherit;
-  opacity: 0;
-}
+// #cookiesms {
+//   position: fixed;
+//   top: 0px;
+//   left: 0px;
+//   background-color: rgba(255, 255, 255, 0.9);
+//   font-size: 14px;
+//   padding: 5px;
+//   width: 100%;
+//   z-index: 5;
+// }
+// #cookiesms button {
+//   line-height: 14px;
+// }
+// @media (min-width: 576px) {
+//   #cookiesms {
+//     top: inherit;
+//     bottom: 0px;
+//   }
+// }
+// #cookiesms.ocultar-cookies {
+//   transition: all 0.5s;
+//   bottom: -40px;
+//   top: inherit;
+//   opacity: 0;
+// }
 [onclick] {
   cursor: pointer;
 }

@@ -32,12 +32,6 @@ html(lang="es")
           include ../includes/contacto.pug
     block footer
       include footer.pug
-    block cookies
-      #cookiesms
-        | ¿Aceptas Cookies? 
-        a.text-primary(onclick="window.open('cookies','_blank')") Leer más
-        |  
-        button.btn.btn-secondary.btn-sm(onclick='controlcookies()') OK
     block scripts
       script(src="/js/scripts.js" defer)
     block styles

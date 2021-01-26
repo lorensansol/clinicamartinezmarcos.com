@@ -9,8 +9,26 @@ footer.p-4.text-primary.bg-secondary.text-center
           i.fa.fa-fw.fa-pen.d-inline
           |  diseño web 
           a.text-white(href=(index && 'https://seacomoseo.com/diseno-paginas-web') target=(index && '_blank') onclick=(index||"window.open('https://seacomoseo.com/diseno-paginas-web','_blank')") ) seacomoseo.com
-        span.d-inline-block.m-2
+        //- span.d-inline-block.m-2
           i.fa.fa-fw.fa-cookie.d-inline
             |  
           a.text-white(href=(index && 'cookies') onclick=(index || "location.href='cookies'"))
             | política de cookies
+        span.d-inline-block.m-2
+          i.fa.fa-fw.fa-cookie.d-inline
+            |  
+          span#cookies-message-toggle.text-white
+            | cookies
+block cookies
+  //- #cookiesms
+    | ¿Aceptas Cookies? 
+    a.text-primary(onclick="window.open('cookies','_blank')") Leer más
+    |  
+    button.btn.btn-secondary.btn-sm(onclick='controlcookies()') OK
+  #cookies-message.bg-white.p-2.m-2.m-sm-3.shadow.rounded.text-muted
+    p.h6.text-secondary.text-uppercase.mb-2
+      | ¿Aceptas Cookies? 
+      i.fas.fa-cookie-bite.text-primary
+    p.text-justify Usamos cookies de terceros, analizando tus hábitos de navegación, para mejorar nuestros servicios y facilitar la navegación. Si continúas navegando, consideramos que aceptas su uso.
+    button.btn.btn-secondary.w-100.mb-2(type='button' onclick='location.href=\'/cookies\'') ✚ Leer más
+    button#cookies-message-acept.btn.btn-primary.w-100(type='button') ✔ OK

@@ -39,7 +39,8 @@ gulp.task('html', () => {
 
 const filesJs = [
   'node_modules/bootstrap.native/dist/bootstrap-native.js',
-  'src/js/cookies-control.js',
+  // 'src/js/cookies-control.js',
+  'src/js/cookies-message.js',
   'src/js/scroll-behavior-smooth.js',
   'src/js/scroll-shot.js',
   'src/js/scroll-show.js',

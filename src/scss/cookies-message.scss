@@ -1,0 +1,34 @@
+// Option one, if not -> two
+$option-one: true;
+$cookies-message-width: 14.5em;
+
+#cookies-message {
+	position: fixed;
+	@if $option-one {
+		bottom: 0;
+		left: -$cookies-message-width - 2;
+		max-width: $cookies-message-width;
+	} @else {
+		bottom: -3em;
+		left: 0;
+		width: 100vw;
+	}
+	z-index: 9000;
+	transition: all .5s;
+	&.active {
+		@if $option-one {
+			left: 0;
+		} @else {
+			bottom: 0;
+		}
+
+	}
+}
+
+// Onclick toggle cookies message
+#cookies-message-toggle {
+	cursor: pointer;
+	&:hover {
+		text-decoration: underline;
+	}
+}
