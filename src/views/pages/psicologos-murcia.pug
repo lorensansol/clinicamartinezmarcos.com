@@ -149,3 +149,67 @@ block servicios
                   .modal-body!= serviciosItem.body
                   .modal-footer
                     button.btn.btn-secondary(type='button' data-dismiss='modal') Cerrar
+  section.py-5.bg-white#estimulacion-transcraneal
+    .container
+      .row.justify-content-center
+        .col-12.text-center
+          h3.h2.mb-1.text-secondary Estimulación Transcraneal
+          p.mb-3.text-muted Nuevo método revolucionario para tratar diversos problemas relacionados con el estado de ánimo
+          h4.h3.mb-1.text-primary Beneficios
+          p.mb-3.text-muted En pocas semanas, notará mejoría en los siguientes ámbitos:
+          ul.list-group.text-left.text-muted
+            li.list-group-item
+              i.fa.fa-check.text-primary.mr-2
+              |  Mejora su estado de ánimo
+            li.list-group-item
+              i.fa.fa-check.text-primary.mr-2
+              |  En las adicciones reduce el deseo de consumo
+            li.list-group-item
+              i.fa.fa-check.text-primary.mr-2
+              |  Concentración, optimismo e iniciativa
+            li.list-group-item
+              i.fa.fa-check.text-primary.mr-2
+              |  Mejora significativa en el sueño
+            li.list-group-item
+              i.fa.fa-check.text-primary.mr-2
+              |  Reduce la ansiedad y los pensamientos suicidas.
+          h4.h3.mb-1.mt-5.text-primary Características
+          ul.list-group.text-left.text-muted
+            li.list-group-item
+              i.fa.fa-check.text-primary.mr-2
+              |  Uso previsto: Tratamiento del trastorno depresivo mayor (TDM), ansiedad, dolor crónico y adicciones.
+            li.list-group-item
+              i.fa.fa-check.text-primary.mr-2
+              |  Confiado por expertos en el campo de la estimulación cerebral y la psiquiatría.
+            li.list-group-item
+              i.fa.fa-check.text-primary.mr-2
+              |  Respaldado por más de 20 ensayos clínicos doble ciego controlados con placebo.
+            li.list-group-item
+              i.fa.fa-check.text-primary.mr-2
+              |  Siempre consulte a un profesional de la salud antes de usar.
+          button.btn.btn-primary.btn-md.mt-4(type="button" data-toggle="modal" data-target="#estimulacion-transcraneal-modal" aria-expanded="true" aria-controls="descubre")
+            | Más Información 
+            i.fa.fa-chevron-right.fa-fw
+    .modal.fade#estimulacion-transcraneal-modal( tabindex='-1' aria-labelledby='estimulacion-transcraneal-modal' aria-hidden='true')
+      .modal-dialog
+        .modal-content
+          .modal-header
+            h4.h5.modal-title.text-secondary Detalles de la Estimulación Transcraneal
+            button.close(type='button' data-dismiss='modal' aria-label='Cerrar')
+              span(aria-hidden='true') ×
+          .modal-body.text-muted
+            p La técnica de estimulación cerebral está respaldada por más de 20 ensayos clínicos doble ciego controlados con placebo, lo que hace que la estimulación transcraneal sea muy eficaz para los expertos en el campo de la psiquiatría y psicología.
+            h5.text-primary ¿Qué es tDCS?
+            p La estimulación transcraneal de corriente directa (tDCS) es la técnica utilizada en el dispositivo Flow tDCS. Este tipo de estimulación cerebral se ha utilizado para tratar la depresión durante décadas, pero no debe confundirse con la terapia electroconvulsiva (antes conocida como terapia de electroshock). La corriente utilizada en tDCS es 400 veces más débil y nunca se ha asociado con eventos adversos graves. El dispositivo Flow tDCS emite una corriente eléctrica constante de baja intensidad a través de dos electrodos colocados en la frente para estimular la actividad cerebral y ayudar a mejorar los síntomas de la depresión. En el estudio tDCS más grande hasta la fecha, el 24% de los pacientes superó por completo su depresión, mientras que el 41% encontró que al menos la mitad de sus síntomas desaparecieron después de seis semanas usando esta técnica
+            p
+              a(href="https://flowneuroscience.com/home/the-science/") https://flowneuroscience.com/home/the-science/
+            h5.text-primary ¿Qué se siente?
+            p El electroimán emite pulsos magnéticos sin causar dolor , similar a un ligero cosquilleo, que estimulan las células nerviosas en la región del cerebro que controla el estado de ánimo y la depresión.
+            h5.text-primary ¿Cuántas sesiones hacen falta?
+            p Cada caso es particular. Puede realizarse sesiones sueltas o un programa completo. Preguntar a nuestros profesionales según cada caso.
+            p En general, se estima para un tratamiento completo de depresión sesiones de estimulación de 30 minutos y comenzarás con 4 sesiones por semana durante las primeras tres semanas. Todo ello se combina con tratamiento de psicoterapia con nuestro equipo de expertos.
+            p Después de eso, habrá 1-2 sesiones por semana durante el tiempo que desee. Su terapeuta lo ayudará a programar todas las próximas sesiones.
+            h5.text-primary ¿Hay efectos secundarios por usar el dispositivo tDCS?
+            p Los ensayos clínicos publicados en el New England Journal of Medicine y el British Journal of Psychiatry mostraron que la estimulación cerebral con tDCS, del tipo utilizado en el dispositivo Flow tDCS, tuvo un impacto similar al de los antidepresivos, pero con menos efectos secundarios y menos graves. Algunas personas no sienten nada debajo de los electrodos. Algunas personas sienten una sensación de picazón y un leve hormigueo. Algunos sienten escozor o una leve sensación de ardor y algunos experimentan dolores de cabeza leves que pasan después de media hora.
+          .modal-footer
+            button.btn.btn-secondary(type='button' data-dismiss='modal') Cerrar
