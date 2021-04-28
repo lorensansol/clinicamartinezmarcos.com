@@ -24,6 +24,12 @@ button.btn {
 #servicios .fas + .fas {
   text-shadow: 0 0.125rem 0 white;
 }
+#estimulacion-transcraneal img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 #estimulacion-transcraneal .list-group-item,
 #equipo .list-group-item {
   text-indent: -17px;
